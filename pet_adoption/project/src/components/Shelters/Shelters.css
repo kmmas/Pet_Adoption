@@ -1,0 +1,134 @@
+.AAcardsSpace{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 450px;
+    height: auto;
+}
+.Mbody{
+    background-image: url(../../images/whiteback.jpg);
+    height: 100vh;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+.shelter-search-btn{
+    position: relative;
+    top: 17px;
+    margin-left: 10px;
+}
+.MSearchinput{
+    position:relative;
+    top: 18px;
+    width: 500px;
+}
+.Min11{
+    width: 90%;
+    height: 40px;
+    padding-left: 15px;
+    font-family:cursive;
+    border-radius: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.766);
+}
+.Min11::placeholder{
+    color: rgba(61, 61, 61, 0.719);
+}
+
+.AAcardsholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid;
+    min-height: 380px;
+    height: auto;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    margin-bottom: 20px;
+}
+.AAcard{
+    width: 330px;
+    height: 330px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.181);
+    border-radius: 10px;
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+.AAimg{
+    border: 1px solid black ;
+    width: 150px ;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.AALinkHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AAlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.AAlink:active{
+    font-size: smaller;
+}
+.AAinfo{
+    width:100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: cursive;
+}
+.AAinfoparts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+.AAp{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+    height: 46px;
+    overflow: hidden;
+    margin-top:5px ;
+    background-color: rgb(202, 202, 202);
+    border-bottom: 3px solid black;
+    padding: 10px 20px;
+}
+.AAlabel{
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+    height: 26px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+.AAlabel2{
+    width: 78px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+    height: 26px;
+    color: rgba(255, 255, 255, 0.795);
+}

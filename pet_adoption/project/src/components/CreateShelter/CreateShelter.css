@@ -1,0 +1,101 @@
+.SSbody {
+  background-image: url(../../images/background3.jpg);
+  height: 100vh;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+}
+.Sff2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+}
+.SSback {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SSleftside{
+  width: 550px;
+  border-radius: 5px;
+  height: 400px;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 26, 26, 0.611);
+}
+.SSleftside h1 {
+  color: white;
+  width: 70%;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.Sin1 {
+  width: 250px;
+  border: none;
+  border-radius: 3px;
+  height: 50px;
+  padding: 10px;
+}
+.Sbutt {
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+.Sbutt:active {
+  background: white;
+  color: black;
+}
+.SSvibrate {
+  animation: vibrate 0.3s ease-in-out infinite; /* Define the vibrate animation */
+  border-color: red;
+}
+.radio{
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+.radio label{
+  padding: 10px;
+}
+@keyframes vibrate {
+  0%,
+  100% {
+    transform: translateX(0); /* Initial and final position */
+  }
+  25%,
+  75% {
+    transform: translateX(-5px); /* Move to the left */
+  }
+  50% {
+    transform: translateX(5px); /* Move to the right */
+  }
+}
+@media (max-width: 1000px) {
+}
+@media (max-height: 600px) {
+  .SSall {
+    height: 600px; /* Set your constant height in pixels */
+    overflow: hidden;
+  }
+  .SSgradient-form {
+    height: 600px; /* Set your constant height in pixels */
+    overflow: hidden;
+  }
+}

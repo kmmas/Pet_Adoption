@@ -1,0 +1,24 @@
+.navbar-cont{
+    background-color: rgba(30, 30, 30, 0.863);
+    margin-left: auto; 
+    margin-right: 0;
+    min-height: 50px;
+}
+.HLogo{
+    color: rgb(58, 58, 255);
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.HLogo2{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.nav-link:active{
+    font-size: smaller;
+}

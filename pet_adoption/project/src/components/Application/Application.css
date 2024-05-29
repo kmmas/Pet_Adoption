@@ -1,0 +1,154 @@
+.Abody{
+    height: 100vh;
+    background-image: url("../../images/img4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+.Alogo1{
+    color: rgb(252, 130, 0);
+    font-family: sans-serif;
+    margin-right: 15px;
+}
+.Asec h2{
+    color: white;
+    width: 70%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.ALink{
+    color: white;
+    text-decoration: none;
+}
+.ALinkH{
+width: 25%;
+height: 100%;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: larger;
+font-family: sans-serif;
+}
+.ALinkH:hover{
+    background-color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+.ALinkHolder{
+    width: 550px;
+    height: 100%;
+    display: flex;
+    flex: row;
+    margin-right: 30px;
+}
+.Alogo2{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.Atotal{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Anav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.89);
+    position: fixed;
+}
+.Asec{
+    width: 750px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.Aff2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    height: 95%;
+    width: 65%;
+    background-color: rgba(27, 26, 26, 0.611);
+    border: none;
+}
+.Alabel{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-family: cursive;
+    width: 120px;
+}
+.Aflp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.Ain {
+    width: 250px;
+    padding-left: 5px;
+    height: 40px;
+    border: none;
+}
+.Ain::placeholder{
+    color: rgba(0, 0, 0, 0.364);
+}
+.Agender{
+    color: rgba(0, 0, 0, 0.364);
+}
+.Abutt{
+    width: 200px;
+    height: 40px;
+    font-family: cursive;
+    font-size: 18px;
+}
+.Abutt:hover{
+    background: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+}
+.Abutt:active{
+    font-size: smaller;
+}
+@media (max-width: 900px) {
+    .Abody {
+    width: 900px; /* Set your constant width in pixels */
+    overflow: hidden;
+    }
+
+}
+@media (max-height: 600px) {
+    .Abody {
+    height: 600px; /* Set your constant height in pixels */
+    overflow: hidden;
+    }
+
+}

@@ -1,0 +1,217 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    margin-right: 5px;
+
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:rgba(0, 0, 0, 0.844);
+    border-radius: 300px;
+    margin-right: 5px;
+
+}
+.Sbody{
+    background-image: url("../../images/profileback.jpg");
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.Stotal{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ssec{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Scardsholder{
+    background-color: rgba(25, 25, 25, 0.611);
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.181);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.Scard{
+    width: 330px;
+    height: 450px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.625);
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Simg{
+    border: 1px solid black ;
+    width: 150px ;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.SLinkHolder{
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Slink{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.Slink:hover{
+    background-color: rgba(255, 166, 0, 0.63);
+}
+.Slink:active{
+    font-size: smaller;
+}
+.Sinfo{
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: cursive;
+}
+.Sinfoparts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+.Sdetailparts .Sp{
+    width: 300px;
+    font-size: 18px;
+    background-color: rgb(126, 126, 126);
+    border-bottom: 3px solid black;
+    padding: 5px 30px 5px 10px;
+}
+.Sphone .Sp{
+    width: 300px;
+    font-size: 18px;
+    background-color: rgb(126, 126, 126);
+    border-bottom: 3px solid black;
+    padding: 5px 30px 5px 10px;
+}
+.Sa{
+    text-decoration: none;
+    color:black;
+}
+.Sa:hover{
+    color: rgb(61, 61, 227);
+}
+.Sa:active{
+    font-size: smaller;
+}
+.Slabel{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.436);
+}
+.Slabel2{
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.436);
+}
+.Smembers{
+    margin-top: 20px;
+    min-height: 250px;
+    height: auto;
+}
+.Sdetails{
+    width: 60%;
+    height: 500px;
+    background-color: rgba(244, 244, 244, 0.622);
+    padding: 10px;
+}
+.Sdetailparts{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.Sdetailparts2{
+    width: 100%;
+    height: 200px;
+}
+.Sp{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.Sphone{
+    width: 500px;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.Sadd{
+    height: 40px;
+    /* margin-top: 10px; */
+}
+.Sadd2{
+    width: 150px;
+}
+@media (max-width: 1200px) {
+    .Sbody {
+    width: 1200px; /* Set your constant width in pixels */
+    overflow: hidden;
+    }
+
+}
+@media (max-height: 600px) {
+    .Sbody {
+    height: 600px; /* Set your constant width in pixels */
+    overflow: hidden;
+    }
+
+}

@@ -1,0 +1,155 @@
+.Msec{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.MSearchbar{
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MSearchinput{
+    position: relative;
+    top: 10px;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Mfiltersort{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Min1{
+    width: 90%;
+    height: 50px;
+    padding-left: 15px;
+    font-family:cursive;
+    border-radius: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.766);
+}
+.Min1::placeholder{
+    color: rgba(61, 61, 61, 0.719);
+}
+.Min2{
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.181);
+    border: none;
+    margin-left: 8px;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0.784);
+}
+.Min2:hover{
+    background-color: rgba(255, 255, 255, 0.608);
+    cursor: pointer;
+}
+.Min2:active{
+    font-size: 12px;
+}
+.Mcardsholder{
+    display: flex;
+    height: 500px;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    min-height: 380px;
+    /* background-color: rgba(0, 0, 0, 0.297); */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Mcard{
+    border-radius: 10px;
+    padding: 10px;
+    /* border: 3px solid rgba(0, 0, 0, 0.375); */
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.181);
+}
+.Mimg{
+    border: 1px solid black ;
+    width: 150px ;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.MLinkHolder{
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Mlink{
+    width: 130px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+}
+.Mlink:active{
+    font-size: smaller;
+}
+.Minfo{
+    margin-top: 20px;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+}
+.Minfoparts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+.Mp{
+    margin-left: 20px;
+    width: 200px;
+    height: 26px;
+    overflow: hidden;
+}
+.Mlabel{
+    width: 78px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+    height: 26px;
+}
+.Min2:active{
+    border: none;
+}
+.Mlabel2{
+    padding-left: 22px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    height: 26px;
+}
+@media (max-width: 900px) {
+    .Mbody {
+    width: 900px; /* Set your constant width in pixels */
+    overflow: hidden;
+    }
+
+}

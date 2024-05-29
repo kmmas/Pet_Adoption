@@ -1,0 +1,85 @@
+.signup-body {
+  background-image: url(../../images/loginbackground.jpg);
+  height: 100vh;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+}
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+.signup-back {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container{
+  width: 550px;
+  border-radius: 5px;
+  height: 550px;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 26, 26, 0.611);
+}
+.form-container h2 {
+  color: white;
+  width: 70%;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.signup-in {
+  width: 250px;
+  border: none;
+  border-radius: 3px;
+  height: 50px;
+  padding: 10px;
+}
+.signup-register {
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+.signup-registe:active {
+  background: white;
+  color: black;
+}
+.SSvibrate {
+  animation: vibrate 0.3s ease-in-out infinite; /* Define the vibrate animation */
+  border-color: red;
+}
+.radio{
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+@keyframes vibrate {
+  0%,
+  100% {
+    transform: translateX(0); /* Initial and final position */
+  }
+  25%,
+  75% {
+    transform: translateX(-5px); /* Move to the left */
+  }
+  50% {
+    transform: translateX(5px); /* Move to the right */
+  }
+}
